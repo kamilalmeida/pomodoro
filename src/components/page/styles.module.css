@@ -1,0 +1,46 @@
+.page {
+  background-color: rgb(217, 85, 80);
+  width: 100%;
+  height: 100vh;
+}
+
+.bloco_timer {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 48rem;
+  border-radius: 6px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-block: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .bloco_timer {
+    width: 30rem;
+    height: 28rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 430px) {
+  .bloco_timer {
+    width: 36rem;
+    height: 28rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 480px) {
+  .bloco_timer {
+    width: 40rem;
+    height: 30rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .bloco_timer {
+    width: 44rem;
+    height: 30rem;
+  }
+}

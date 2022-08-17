@@ -1,0 +1,33 @@
+/* timer */
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13rem;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  font-weight: bold;
+  height: 20vh;
+  margin: auto;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .time {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 430px) {
+  .time {
+    font-size: 11rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .time {
+    font-size: 13rem;
+  }
+}
+

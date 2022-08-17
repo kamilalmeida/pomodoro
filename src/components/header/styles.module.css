@@ -1,0 +1,54 @@
+header {
+  height: 20vh;
+  padding: 40px 0;
+
+  margin: 0 0 22px 0;
+}
+
+.header h1 {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-size: 3.7rem;
+}
+
+.line {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  margin: 15px auto;
+  text-align: center;
+  width: 106vh;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .line {
+    width: 27rem;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 430px) {
+  .line {
+    width: 31rem;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 480px) {
+  .line {
+    width: 40rem;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .line {
+    width: 40rem;
+    margin: auto;
+    margin-top: 20px;
+  }
+}

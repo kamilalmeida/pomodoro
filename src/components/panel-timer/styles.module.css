@@ -1,0 +1,52 @@
+/* panel timer */
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.button {
+  font-family: "Source Sans Pro";
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 1.7rem;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+
+  color: #fff;
+}
+
+.actived {
+  color: #ffff;
+  background: none rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .button {
+    font-size: 1.3rem;
+    height: 20px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .button {
+    font-size: 1.6rem;
+    padding: 2px 11px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 480px) {
+  .button {
+    font-size: 1.9rem;
+    height: 27px;
+    padding-inline: 11px;
+  }
+}

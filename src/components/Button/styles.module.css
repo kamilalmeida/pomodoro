@@ -1,0 +1,38 @@
+.button {
+  font-size: 2.2rem;
+  color: rgb(217, 85, 80);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  font-family: "Source Sans Pro";
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border: none;
+
+  margin: 20px 13px;
+  padding-inline: 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235 235 235) 0px 6px 0px;
+
+  height: 55px;
+  width: 17rem;
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .button {
+    height: 40px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 430px) {
+  .button {
+    height: 46px;
+    width: 13rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 480px) {
+  .button {
+  width: 15rem;
+  }
+}
