@@ -27,6 +27,7 @@
   .bloco_timer {
     width: 36rem;
     height: 28rem;
+    padding-block: 15rem;
   }
 }
 
@@ -34,6 +35,7 @@
   .bloco_timer {
     width: 40rem;
     height: 30rem;
+    padding-block: 15rem;
   }
 }
 
@@ -42,5 +44,6 @@
   .bloco_timer {
     width: 44rem;
     height: 30rem;
+    padding-block: 15rem;
   }
 }
