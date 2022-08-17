@@ -1,4 +1,5 @@
-![icon256](https://user-images.githubusercontent.com/87664619/185187260-5be44930-4af7-47d0-87eb-120ed3b4f6cc.png) # Pomodoro
+![Background](https://user-images.githubusercontent.com/87664619/185187934-449df907-af3b-4500-94a2-ff147fefbe59.png) Pomodoro
+
 
 Desenvolvi essa aplicação para aprimorar meus conhecimentos em React.
 A técnica de pomodoro consiste em ajudar ao usuário a focar por 25 min em uma determinada tarefa, tendo intervalo de pausas.
