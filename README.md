@@ -19,8 +19,10 @@ Para acessar a aplicação em produção: https://pomodoro-chi-seven.vercel.app/
 - ``HTML``
 - ``CSS``
 
-## Para rodar o projeto
+## Para instalar das dependências
+### `npm install`
 
+## Para rodar o projeto
 ### `npm start`
 
 
