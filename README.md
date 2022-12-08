@@ -19,7 +19,7 @@ Para acessar a aplicação em produção: https://pomodoro-kamilalmeida.vercel.a
 - ``HTML``
 - ``CSS``
 
-## Para instalar das dependências
+## Para instalar as dependências
 ### `npm install`
 
 ## Para rodar o projeto
